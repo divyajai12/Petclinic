@@ -37,7 +37,8 @@ stage('Test') {
 post{
   always{
      junit 'target\\surfire-reports\\",xml'
-}
-}
-}
+     }
+   }
+ }
+ }
 }
